@@ -1,0 +1,123 @@
+{
+    "agent": {
+        "initiator": {
+            "name": "Chidu"
+        }
+    },
+    "activity": {
+        "sentiment_analysis": {
+            "prov:starttime": "2019-08-08T11:43:57.995710",
+            "prov:endtime": "2019-08-08T11:44:40.851423"
+        },
+        "tweet_query": {
+            "type": "query",
+            "limit": "6",
+            "string": "galaxynote10"
+        }
+    },
+    "entity": {
+        "op_flie": {
+            "type": "file",
+            "path": "TSA_Aboutgalaxynote10.csv"
+        },
+        "tweet_1": {
+            "type": "tweet",
+            "tweet": "@Parillapeach1 @danielk_konnect @kt_corp Good idea.. should i wear red too?   \n\n#10\n#GalaxyNote10\n#KangDaniel_KT \n#_KT",
+            "sentiment": "neutral"
+        },
+        "tweet_2": {
+            "type": "tweet",
+            "tweet": "Galaxy Note 10+ Vs. Galaxy Note 10. Which one is your favorite?\n\nIG: (https://t.co/cLQeQHFs5y)\n\n#TechEngage https://t.co/AazXRXH2un",
+            "sentiment": "neutral"
+        },
+        "tweet_3": {
+            "type": "tweet",
+            "tweet": "@koreansales_twt Congratulations @danielk_konnect  #ColorOnMe album is SO GOOD..\n\nAnd cant wait to see u tomorr https://t.co/rk1dlPgTJs",
+            "sentiment": "positive"
+        },
+        "tweet_4": {
+            "type": "tweet",
+            "tweet": "New healthy recipe\n#GalaxyNote10 #_ #BoyWithLuv #KashmirWelcomesChange\nhttps://t.co/vGo0ZyS2jS https://t.co/tqdRYRcC5d",
+            "sentiment": "neutral"
+        },
+        "tweet_5": {
+            "type": "tweet",
+            "tweet": "Really looking forward to #GalaxyNote10 s #FastCharging",
+            "sentiment": "positive"
+        },
+        "tweet_6": {
+            "type": "tweet",
+            "tweet": "New healthy recipe\n#GalaxyNote10 #_ #BoyWithLuv #KashmirWelcomesChange\nhttps://t.co/vGo0ZyS2jS https://t.co/tqdRYRcC5d",
+            "sentiment": "neutral"
+        }
+    },
+    "used": {
+        "uses_1": {
+            "prov:entity": "tweet_1",
+            "prov:activity": "sentiment_analysis"
+        },
+        "uses_2": {
+            "prov:entity": "tweet_2",
+            "prov:activity": "sentiment_analysis"
+        },
+        "uses_3": {
+            "prov:entity": "tweet_3",
+            "prov:activity": "sentiment_analysis"
+        },
+        "uses_4": {
+            "prov:entity": "tweet_4",
+            "prov:activity": "sentiment_analysis"
+        },
+        "uses_5": {
+            "prov:entity": "tweet_5",
+            "prov:activity": "sentiment_analysis"
+        },
+        "uses_6": {
+            "prov:entity": "tweet_6",
+            "prov:activity": "sentiment_analysis"
+        }
+    },
+    "wasGeneratedBy": {
+        "generated_tweet_1": {
+            "prov:entity": "tweet_1",
+            "prov:activity": "tweet_query"
+        },
+        "generated_tweet_2": {
+            "prov:entity": "tweet_2",
+            "prov:activity": "tweet_query"
+        },
+        "generated_tweet_3": {
+            "prov:entity": "tweet_3",
+            "prov:activity": "tweet_query"
+        },
+        "generated_tweet_4": {
+            "prov:entity": "tweet_4",
+            "prov:activity": "tweet_query"
+        },
+        "generated_tweet_5": {
+            "prov:entity": "tweet_5",
+            "prov:activity": "tweet_query"
+        },
+        "generated_tweet_6": {
+            "prov:entity": "tweet_6",
+            "prov:activity": "tweet_query"
+        },
+        "generated": {
+            "prov:entity": "op_flie",
+            "prov:activity": "sentiment_analysis"
+        }
+    },
+    "wasAssociatedWith": {
+        "started": {
+            "prov:activity": "sentiment_analysis",
+            "prov:agent": "initiator"
+        }
+    },
+    "prefix": {
+        "default": "http://www.example.com/",
+        "prov": "http://www.w3.org/ns/prov-dm/",
+        "xsd": "http://www.w3.org/2001/XMLSchema-datatypes#",
+        "foaf": "http://xmlns.com/foaf/0.1/"
+    },
+    "_id": "provenance_galaxynote10"
+}
